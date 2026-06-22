@@ -1,0 +1,29 @@
+=== Buổi 7 ===
+- React router: import 
+=== Buổi 8 ===
+- React Form + Validation form
+- Hooks: useState, useEffect, memo, useCallback, useMemo
+
+const user ={
+    taiKhoan:"",
+    matKhau:""
+}
+cach 1:
+user.taiKhoan="abc"
+user.matKhau="123"
+cach 2:
+user['taiKhoan']="abc"
+user['matKhau']="123"
+
+=== Buổi 9 ===
+restfulAPI
+hooks: useState, useEffect, memo, useCallback, useMemo
+
+=== Buổi 10 ===
+- detail page 
+- authen
+
+=== Buổi 11 ===
+- refactor code home
+- refactor code authen
+- - refactor code detail (cần làm)
