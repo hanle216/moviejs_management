@@ -14,7 +14,7 @@ import MovieDetail from "./pages/HomeTemplate/MovieDetail";
 import ProtectedRoute from "./guard/protectedRoute";
 import NotFound from "./pages/NotFound";
 import ViewUser from "./pages/AdminTemplate/ViewUser";
-
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
         {/* Nên để NotFound Route ở cuối */}
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <ToastContainer position="bottom-right" autoClose={3000} />
     </BrowserRouter>
   );
 }

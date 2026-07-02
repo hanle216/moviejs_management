@@ -9,6 +9,7 @@ api.interceptors.request.use((config) => {
     ? JSON.parse(localStorage.getItem("user"))
     : null;
   const accessToken = user ? user.accessToken : "";
+ // console.log(accessToken);
   return {
     ...config,
     headers: {

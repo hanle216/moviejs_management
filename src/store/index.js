@@ -4,7 +4,7 @@ import authReducer from "./../pages/AdminTemplate/Auth/slice";
 import addUserReducer from "./../pages/AdminTemplate/AddUser/slice";
 import movieDetailReducer from "./..//pages/HomeTemplate/MovieDetail/slice";
 import getUserListPaginationReducer from "../pages/AdminTemplate/ViewUser/slice";
-
+import getDashboardReducer from "../pages/AdminTemplate/Dashboard/DashboardCard/slice";
 const store = configureStore({
   reducer: {
     //child reducer
@@ -12,7 +12,8 @@ const store = configureStore({
     authReducer,
     addUserReducer,
     movieDetailReducer,
-    getUserListPaginationReducer
+    getUserListPaginationReducer,
+    getDashboardReducer,
   },
 });
 export default store;
